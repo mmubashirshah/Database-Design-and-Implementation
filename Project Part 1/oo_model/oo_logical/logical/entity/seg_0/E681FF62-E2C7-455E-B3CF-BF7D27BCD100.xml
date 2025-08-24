@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E681FF62-E2C7-455E-B3CF-BF7D27BCD100" name="PASSENGER">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:55:12 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="passenger_id" id="F52B1673-3E04-835D-53A6-ACD1632B1C6C">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:55:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_first_name" id="1C8CDCDC-AFEC-360F-B36F-AD849E6BBBC0">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:55:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[passengers first name]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_last_name" id="DCFA4D53-09C8-546B-3991-273D92CAB408">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:55:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[passengers last name]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_gender" id="5A3BB4CB-42A8-5BEA-F902-A6186BF5B61C">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:56:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[passengers gender]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_dob" id="1ED3F8F0-8714-54F9-4809-675C80BF1782">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:56:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger date of birth]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_street" id="7968FA24-9006-E1A0-56AB-CF15E1663F8A">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:56:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[passengers street address]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_town" id="3BDBADBE-50B5-A1A7-1B95-8FE1FEC02CF3">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:56:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[passengers town or city]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_postcode" id="DD97F936-6D59-A8EC-BAF6-B9CFDF383D0E">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:57:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[passengers postcode]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_country" id="F0F8CD18-414D-CF86-604C-17B770457602">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:57:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[passengers country]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_contact_phone" id="63EA7A27-D68D-8415-02D8-8911716CE668">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:58:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[passengers contact phone number]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_id1" id="80BC179D-AEFE-A473-D060-6A3877CED45B">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 10:00:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>C2D7A18F-B23F-7A25-CA6B-950B0C89D632</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F52B1673-3E04-835D-53A6-ACD1632B1C6C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2BEDEC5-A5A2-622B-1358-5D132B93B76C" name="PASSENGER PK">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:55:29 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F52B1673-3E04-835D-53A6-ACD1632B1C6C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cruise_visit_fk" directorySegmentName="seg_0" id="E85B6D21-0BB0-4732-A43D-4E2778A324B5">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 08:31:13 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<sourcePk>59C918B3-5330-9EF6-B635-44362F67CCFE</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>can_visit</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2064891F-E60D-8C17-B8B8-484493257623</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A22F18EA-2DD1-7BA9-7DB6-2A1429145CDF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

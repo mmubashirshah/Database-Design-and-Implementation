@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B9D2CF5-E801-FDDD-6DB1-04C9FFCB4F00" name="OPERATOR">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:25:51 UTC</createdTime>
+<ownerDesignName>oo_model</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="operator_id" id="10491E13-E778-C006-4525-0B14648995F1">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:26:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[operator id]]></commentInRDBMS>
+<ownerDesignName>oo_model</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="operator_company_name" id="1BC0BC91-898A-D344-DC48-14A0E8513E4F">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:39:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[operator company name]]></commentInRDBMS>
+<ownerDesignName>oo_model</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="operator_ceo_name" id="42CF7D04-BD34-35E9-D313-EBCF05B4C5A7">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:39:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[operator ceo name]]></commentInRDBMS>
+<ownerDesignName>oo_model</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2A1B92E-BC12-725B-8264-F57896E039A7" name="OPERATOR PK">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:32:48 UTC</createdTime>
+<ownerDesignName>oo_model</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>10491E13-E778-C006-4525-0B14648995F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

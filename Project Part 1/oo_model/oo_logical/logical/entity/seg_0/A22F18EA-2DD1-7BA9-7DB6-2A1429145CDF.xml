@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A22F18EA-2DD1-7BA9-7DB6-2A1429145CDF" name="CRUISE_PORT_VISIT">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 08:16:31 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="visit_id" id="0A11AD9B-6567-A5C2-7759-DC89AA687C57">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 09:30:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[visit id (surrogate key)]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departure_arrival" id="7E78BAF4-1935-8C9C-0A64-19D69FA6CFDC">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 08:18:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[departure and arrival]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<constraintName>check_departure_arrival</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Arrival"/>
+<valueDef value="D" description="Departure"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_id" id="2D752FF1-A683-E758-CEC0-B2604FEFB776">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 08:31:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise id]]></commentInRDBMS>
+<generatorID>E85B6D21-0BB0-4732-A43D-4E2778A324B5</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<referedAttribute>121B4026-A3D3-25B0-58B3-A51AF984F994</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datetime" id="259E9BDB-480C-87C7-73A8-E406A15DAEF1">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 08:18:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[date and time]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_code" id="D0C347FA-066B-0EC0-C8A4-B239BB226D6B">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 08:30:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[port code]]></commentInRDBMS>
+<generatorID>9D4A87CB-0EDB-FE4A-3187-EA3BB32270D4</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<referedAttribute>8909DB7B-718C-F243-4840-9556891606CB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B0C5B40C-AD3E-936A-79A7-205B8C553DEC" name="CRUISE_PORT_VISIT PK">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 08:27:53 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0A11AD9B-6567-A5C2-7759-DC89AA687C57</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="2D95088D-6100-1B02-6CB1-3952B17993ED" name="VISIT_UQ">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 09:31:36 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="false"/>
+</engineerTo>
+<newElementsIDs>7E78BAF4-1935-8C9C-0A64-19D69FA6CFDC,2D752FF1-A683-E758-CEC0-B2604FEFB776,259E9BDB-480C-87C7-73A8-E406A15DAEF1,D0C347FA-066B-0EC0-C8A4-B239BB226D6B</newElementsIDs>
+<usedAttributes>
+<attributeRef>7E78BAF4-1935-8C9C-0A64-19D69FA6CFDC</attributeRef>
+<attributeRef>2D752FF1-A683-E758-CEC0-B2604FEFB776</attributeRef>
+<attributeRef>259E9BDB-480C-87C7-73A8-E406A15DAEF1</attributeRef>
+<attributeRef>D0C347FA-066B-0EC0-C8A4-B239BB226D6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="passenger_gardian_minor_fk" directorySegmentName="seg_0" id="C2D7A18F-B23F-7A25-CA6B-950B0C89D632">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 10:00:49 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<targetPk>A2BEDEC5-A5A2-622B-1358-5D132B93B76C</targetPk>
+<identifying>false</identifying>
+<nameOnSource> </nameOnSource>
+<nameOnTarget> is_gardian_of</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E681FF62-E2C7-455E-B3CF-BF7D27BCD100</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E681FF62-E2C7-455E-B3CF-BF7D27BCD100</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

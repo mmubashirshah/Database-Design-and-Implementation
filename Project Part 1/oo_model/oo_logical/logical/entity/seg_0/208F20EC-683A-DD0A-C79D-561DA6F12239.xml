@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="208F20EC-683A-DD0A-C79D-561DA6F12239" name="CABIN">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:50:40 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cabin_id" id="30C3A201-897F-0C21-CE37-BD85E266BBEB">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 09:27:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cabin id (surrogate key)]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cabin_number" id="FEDEDFD5-E734-2E1C-EDEB-B9B083680EA0">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:50:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cabin number]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_code" id="2DE9EB59-1D56-1EC2-D483-6FCCEB6E44C3">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 07:40:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[ships code]]></commentInRDBMS>
+<generatorID>31ED55BD-9FB0-C84B-0C53-978B8DF1FDD2</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<referedAttribute>53B53857-01CA-0959-A26C-75FC7B392F2D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cabin_sleeping_capacity" id="B8F14CDE-6DE2-D5CA-880F-EF881C9BDEB5">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:51:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[cabin sleep capacity]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cabin_class" id="3155505C-1FCD-0AAB-4E0C-DB9A9FCCA75C">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:51:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cabins class - Interior, Ocean view, Balcony, Suite
+Possible values(I, O, B, S)
+]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<constraintName>check_cabin_class</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="B" description="Balcony"/>
+<valueDef value="I" description="Interior"/>
+<valueDef value="O" description="Ocean view"/>
+<valueDef value="S" description="Suite"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9F54E63D-AC79-9DF5-E08D-EAABF9C95659" name="CABIN PK">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 06:51:01 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>30C3A201-897F-0C21-CE37-BD85E266BBEB</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="65A9F48E-B6CD-ADE1-6E91-D6E30B0C401D" name="CABIN_UQ">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 09:29:08 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="false"/>
+</engineerTo>
+<newElementsIDs>FEDEDFD5-E734-2E1C-EDEB-B9B083680EA0,2DE9EB59-1D56-1EC2-D483-6FCCEB6E44C3</newElementsIDs>
+<usedAttributes>
+<attributeRef>FEDEDFD5-E734-2E1C-EDEB-B9B083680EA0</attributeRef>
+<attributeRef>2DE9EB59-1D56-1EC2-D483-6FCCEB6E44C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

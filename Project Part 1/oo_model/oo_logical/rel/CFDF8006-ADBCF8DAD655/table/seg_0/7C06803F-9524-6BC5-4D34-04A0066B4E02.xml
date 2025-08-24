@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C06803F-9524-6BC5-4D34-04A0066B4E02" name="SHIP">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 11:01:06 UTC</createdTime>
+<generatorID>174D053C-F2C1-FC4F-5D98-1B80332C637F</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ship_code" id="FEB76BDA-81D0-23DA-23A9-13AEDD79F4FB">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 11:01:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[ships code]]></commentInRDBMS>
+<generatorID>53B53857-01CA-0959-A26C-75FC7B392F2D</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_name" id="B4C71A4B-65D7-D8BA-6CD7-2A4CFFD9E145">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 11:01:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[ships name]]></commentInRDBMS>
+<generatorID>01967C18-FB50-69A8-EA53-FCFD95100CEB</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_commision_date" id="ED349BD3-88DE-77D0-488F-4AE248929AB2">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 11:01:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[ships commision date]]></commentInRDBMS>
+<generatorID>2B8DA63B-9D8B-11F5-7474-80CE95846E6D</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_tonnage" id="AD49B077-944F-ED6D-E13E-BF9C1B7970D5">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 11:01:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship weight]]></commentInRDBMS>
+<generatorID>B90AC4FA-D086-AB44-6571-F79EE8D37C3B</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_max_capacity" id="15AF04EE-AB8F-AC48-4353-1313D32AFD65">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 11:01:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[ships max capacity]]></commentInRDBMS>
+<generatorID>4C2E79FA-A5A7-DE7C-DA6C-ABF489C70BCF</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_registered_country" id="49F4F59D-6EDF-91B6-32A1-A4805EC2C3C4">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 11:01:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[ships registered country]]></commentInRDBMS>
+<generatorID>F045CFF2-1B80-28D8-8AEF-3F7BB8917A43</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="operator_id" id="843C63BE-430D-B8BC-A580-5D9638512DB7">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 11:01:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[operator id]]></commentInRDBMS>
+<generatorID>243EC076-D07A-175B-7937-79E41BDB746F</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F0AB37D-A2A3-7C18-D58D-C66704173213" referredColumn="843BA501-643A-DBC9-8764-EF7F14593ED2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72BC899A-CBD6-3F19-ADC4-B24A932D323D" name="SHIP_PK">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 11:01:06 UTC</createdTime>
+<generatorID>D82DF57F-276B-A45A-9C4F-61151166C9BA</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEB76BDA-81D0-23DA-23A9-13AEDD79F4FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A68AD367-669A-00F5-3066-6778B5366138" name="operator_ship_fk">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 11:01:06 UTC</createdTime>
+<generatorID>5D14CA3D-8B70-196F-E5B3-7F220AB1F577</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="843C63BE-430D-B8BC-A580-5D9638512DB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

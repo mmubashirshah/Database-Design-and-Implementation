@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C60DC592-EBA8-D2F0-9255-7E0261855F3A" name="MANIFEST">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 07:00:06 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="manifest_id" id="28616044-C7B9-A908-80D3-021C074B62F0">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 09:14:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[manifest identifyier (surrogate key)]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_id" id="59F9AF0E-C68F-443B-F104-6134FBA566CA">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 07:41:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise id]]></commentInRDBMS>
+<generatorID>FE7045D6-435E-7F53-99A0-5D62681B4A49</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<referedAttribute>121B4026-A3D3-25B0-58B3-A51AF984F994</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_id" id="F2083663-D58C-3A4C-E88E-450C1F33F557">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 07:49:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>00691E94-A892-4C7E-BC4A-C475BAD60A3F</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<referedAttribute>F52B1673-3E04-835D-53A6-ACD1632B1C6C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manifest_boarding_time" id="AD765EF9-6787-4F1E-1DC9-97304B458010">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 07:00:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[manifest boarding time]]></commentInRDBMS>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cabin_id" id="674E3FE1-2741-9382-2A10-ACECDBDC4818">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 10:49:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cabin id (surrogate key)]]></commentInRDBMS>
+<generatorID>F7FA0835-1BD7-23AB-769B-76D937B13F08</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="true"/>
+</engineerTo>
+<referedAttribute>30C3A201-897F-0C21-CE37-BD85E266BBEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03FA7982-93CC-A708-ED9B-3659E65BC0C7" name="MANIFEST PK">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 07:00:26 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28616044-C7B9-A908-80D3-021C074B62F0</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="AC1F6C67-519C-19DE-F508-B5D5F460E987" name="MANIFEST_UQ">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 09:21:33 UTC</createdTime>
+<ownerDesignName>oo_logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CFDF8006-EF41-7E3A-9C1A-ADBCF8DAD655" value="false"/>
+</engineerTo>
+<newElementsIDs>00691E94-A892-4C7E-BC4A-C475BAD60A3F,FE7045D6-435E-7F53-99A0-5D62681B4A49</newElementsIDs>
+<usedAttributes>
+<attributeRef>F2083663-D58C-3A4C-E88E-450C1F33F557</attributeRef>
+<attributeRef>59F9AF0E-C68F-443B-F104-6134FBA566CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

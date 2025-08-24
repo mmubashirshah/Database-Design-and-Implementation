@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9F0AB37D-A2A3-7C18-D58D-C66704173213" containerWithKeyObject="7C06803F-9524-6BC5-4D34-04A0066B4E02" localFKIndex="A68AD367-669A-00F5-3066-6778B5366138" name="operator_ship_fk">
+<createdBy>2004m</createdBy>
+<createdTime>2025-05-02 11:01:06 UTC</createdTime>
+<generatorID>5D14CA3D-8B70-196F-E5B3-7F220AB1F577</generatorID>
+<ownerDesignName>oo_logical</ownerDesignName>
+<referredTableLongName>OPERATOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF1F15ED-B327-0E69-6DFF-92B3C9B8BDD1</referredTableID>
+<keyObject>9AF9EE80-7C90-F75C-0338-CF43BC39050F</keyObject>
+<referredKeyID>9AF9EE80-7C90-F75C-0338-CF43BC39050F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>operator_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
